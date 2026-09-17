@@ -1,9 +1,9 @@
 {
+  {
   "version": 2,
   "routes": [
     {
-      "src": "/static/(.*)",
-      "continue": true
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
