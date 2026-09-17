@@ -76,7 +76,7 @@ function home() {
         <p>${d.settings[`slogan_${state.lang}`]}</p>
         <div class="btn-row"><a class="btn" href="/afspraak-maken" data-link>${tr("nav.book")}</a></div>
       </div>
-      <div class="hero-media"><img src="/static/images/1720.jpg" alt="ITBCUTZ fade haircut Amsterdam-West"></div>
+      <div class="hero-media"><img src="/static/images/hero.jpg" alt="ITBCUTZ fade haircut Amsterdam-West"></div>
     </section>
     <section class="section light"><div class="wrap"><div class="eyebrow">Amsterdam-West</div><h2 class="title">ITBCUTZ</h2><p class="copy">${d.settings[`about_${state.lang}`]}</p></div></section>
     <section class="section dark"><div class="wrap"><div class="eyebrow">${state.lang === "nl" ? "Waarom ITBCUTZ?" : "Why ITBCUTZ?"}</div><div class="grid three">
