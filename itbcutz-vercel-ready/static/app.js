@@ -7,7 +7,7 @@ const api = async (url, data) => {
   if (!res.ok) throw new Error(json.error || "Actie mislukt");
   return json;
 };
-const money = cents => new Intl.NumberFormat("nl-NL", { style: "currency", currency: "EUR" }).format(cents / 100);
+const money = cents => new Intl.NumberFormat("nl-NL", { style: "currency", currency: "EUR" }).format(cents / 100); 
 const app = $("#app");
 let state = { lang: localStorage.getItem("itb_lang") || "nl", data: {}, adminTab: "overview", galleryFilter: "all", account: null };
 
